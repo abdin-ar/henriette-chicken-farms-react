@@ -1529,7 +1529,7 @@ img {
 }
 .content-with-images-img-container {
   width: 100%;
-  background: var(--secondary1);
+  background: var(--secondary3);
   position: relative;
 }
 .content-with-images-img-logo img {
@@ -2346,6 +2346,7 @@ img {
 
 .carousel-section.full-height {
   height: max(75vh, 450px);
+  max-height: calc(var(--maxWidth) * 3 / 5);
 }
 
 .carousel-img {
